@@ -1,0 +1,11 @@
+.page-header{
+    display: table;
+            width: 100%;
+    h1{
+        display:table-cell;
+        vertical-align: middle;
+        height: rem-calc(250);
+        text-align: center;
+
+    }
+}
