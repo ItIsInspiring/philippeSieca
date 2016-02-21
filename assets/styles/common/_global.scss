@@ -1,1 +1,26 @@
+.col_gauche{
+    @media #{$medium-up} { 
+        position: fixed;
+        border:0px solid red;
+        height:100vh;
+        background: $brand-primary url("../images/portrait_phillipe_sieca.jpg") no-repeat center top;  
+    }
+    
+}
 
+.col_droite{}
+
+.section{
+    // Default $behavior value is false
+    
+//    @media #{$medium-up} { margin-left:30vw; }
+    @media #{$medium-only} { margin-left:10vw; }
+    .section-content {
+        border:1px solid grey;
+        height: 90vh; 
+        margin: 2.5vh 0;
+        padding: 2.5vh;
+        overflow: hidden;
+    }  
+    
+}

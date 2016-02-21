@@ -6,5 +6,54 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:          #0c2d70;
-$brand-secondary:        #FFF6DB;
+$brand-primary:          #1e0000;
+$brand-secondary:        #a69149;
+
+// c. Global
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// We use these to define default font stacks
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+// $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+
+ $body-bg:lighten($brand-secondary, 40%);
+
+// 34. Top Bar
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// $include-html-top-bar-classes: $include-html-classes;
+
+// Background color for the top bar
+$topbar-bg-color: $brand-primary;
+$topbar-bg: $topbar-bg-color;
+
+// Height and margin
+// $topbar-height: rem-calc(45);
+// $topbar-margin-bottom: 0;
+
+// Controlling the styles for the title in the top bar
+// $topbar-title-weight: $font-weight-normal;
+// $topbar-title-font-size: rem-calc(17);
+
+
+// Set the link colors and styles for top-level nav
+ $topbar-link-color: $brand-secondary;
+ $topbar-link-color-hover: $brand-primary;
+ $topbar-link-color-active: $brand-secondary;
+// $topbar-link-color-active-hover: $brand-secondar;
+// $topbar-link-weight: $font-weight-normal;
+// $topbar-link-font-size: rem-calc(13);
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg: $brand-primary;;
+$topbar-link-bg-hover: $brand-secondary;
+$topbar-link-bg-color-hover: $brand-secondary;
+$topbar-link-bg-active: $brand-secondary;
+$topbar-link-bg-active-hover: scale-color($brand-secondary, $lightness: -14%);
+// $topbar-link-font-family: $body-font-family;
+// $topbar-link-text-transform: none;
+// $topbar-link-padding: ($topbar-height / 3);
+// $topbar-back-link-size: rem-calc(18);
+// $topbar-link-dropdown-padding: rem-calc(20);
+// $topbar-button-font-size: .75rem;
+// $topbar-button-top: 7px;
