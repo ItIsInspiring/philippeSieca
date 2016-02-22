@@ -25,15 +25,38 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+          $(".owl-carousel-itineraire").owlCarousel({
+            items : 1,
+            navigation:true,
+            singleItem : true,
+            autoHeight : true,
+          });
+          
+          $(".owl-carousel-pratique").owlCarousel({
+            items : 1,
+            navigation:true,
+            singleItem : true,
+            autoHeight : true,
+          });
+          
+        $(".owl-carousel-livres").owlCarousel({
+            items : 1,
+            navigation:true,
+            singleItem : true,
+            autoHeight : true,
+          });
+          
       }
     },
     // Home page
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
+          
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
+           
       }
     },
     // About us page, note the change from about-us to about_us.

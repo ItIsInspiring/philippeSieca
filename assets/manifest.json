@@ -17,12 +17,19 @@
         "styles/editor-style.scss"
       ]
     },
+    "owl.carousel.js": {
+      "files": [
+        "scripts/owl.carousel.js"
+      ],
+      "main": true
+    },
     "jquery.js": {
       "bower": ["jquery"]
     },
     "modernizr.js": {
       "bower": ["modernizr"]
     }
+    
   },
   "config": {
     "devUrl": "http://localhost/philippeSieca/"

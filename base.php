@@ -98,8 +98,8 @@ use Roots\Sage\Wrapper;
                         <a name="itineraire"></a>
                         </header>
 
-                        <div class="slider">
-                            <div class="slider-paragraphe">
+                        <div class="owl-carousel-itineraire">
+                            <div >
                             <?php
                                 $page_id = 25;
                                 $queried_post = get_post($page_id);
@@ -111,7 +111,7 @@ use Roots\Sage\Wrapper;
                             ?>
                             </div>
 
-                            <div class="slider-paragraphe">
+                            <div >
                             <?php
                                 $page_id = 27;
                                 $queried_post = get_post($page_id);
@@ -142,8 +142,8 @@ use Roots\Sage\Wrapper;
                         <a name="pratique"></a>
                         </header>
 
-                        <div class="slider">
-                            <div class="slider-paragraphe">
+                        <div class="owl-carousel-pratique">
+                            <div >
                             <?php
                                 $page_id = 29;
                                 $queried_post = get_post($page_id);
@@ -155,7 +155,7 @@ use Roots\Sage\Wrapper;
                             ?>
                             </div>
 
-                            <div class="slider-paragraphe">
+                            <div >
                             <?php
                                 $page_id = 31;
                                 $queried_post = get_post($page_id);
@@ -167,7 +167,7 @@ use Roots\Sage\Wrapper;
                             ?>
                             </div>
 
-                            <div class="slider-paragraphe">
+                            <div >
                             <?php
                                 $page_id = 33;
                                 $queried_post = get_post($page_id);
@@ -200,7 +200,7 @@ use Roots\Sage\Wrapper;
                         <a name="livres"></a>
                         </header>
 
-                        <div class="slider">
+                        <div class="owl-carousel-livres">
 
                            <?php 
                                 $args = array(
@@ -268,6 +268,7 @@ use Roots\Sage\Wrapper;
 
                     <!-- -->  
                     <section id="section_contact" class="section">
+                       <div class="section-content" >
                         <?php
                             $page_id = 37;
                             $queried_post = get_post($page_id);
@@ -279,7 +280,8 @@ use Roots\Sage\Wrapper;
                             $content = $queried_post->post_content;
                             $content = apply_filters( 'the_content', $content );    
                             echo $content;
-                        ?>          
+                        ?>  
+                        </div>        
                     </section>
                     <!-- --> 
 
